@@ -22,3 +22,42 @@ body {
     max-width: 500px; 
     height: auto; 
 }
+
+.feelings-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    font-family: 'Georgia', serif;
+    color: white;
+    background-color: #ff4081;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.feelings-button:hover {
+    background-color: #d81b60;
+}
+
+.download-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    font-family: 'Georgia', serif;
+    color: white;
+    background: linear-gradient(45deg, #ff4081, #ff80ab);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.download-button:hover {
+    background: linear-gradient(45deg, #d81b60, #ff4081);
+    transform: scale(1.1);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}

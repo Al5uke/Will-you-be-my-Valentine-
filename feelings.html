@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Feelings for You Esterida</title>
+    <link rel="stylesheet" href="./yes_style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header_text">My Feelings for You</h1>
+        <p class="message">I poured my heart into this for you, my love. Click below to read it.</p>
+        <button class="download-button" onclick="validateDate()">Download</button>
+    </div>
+    
+     <script>
+        function validateDate() {
+            let correctDate = "01/12/2024";
+            let userDate = prompt("Enter the date we got together (DD/MM/YYYY):");
+            
+            while (userDate !== correctDate) {
+                if (userDate === null) return;
+                userDate = prompt("Incorrect date! Try again (DD/MM/YYYY):");
+            }
+            
+            validateLoveMessage();
+        }
+
+        function validateLoveMessage() {
+            let loveMessage = prompt("Say \"I love you\" 😏");
+            while (loveMessage !== "I love you") {
+                if (loveMessage === null) return;
+                loveMessage = prompt("No no, say \"I love you\" 😏");
+            }
+            
+            loveMessage = prompt("Now say \"I love you my King\" 😌");
+            while (loveMessage !== "I love you my King") {
+                if (loveMessage === null) return;
+                loveMessage = prompt("Ah you must say it ooh, \"I love you my King\" 😂");
+            }
+            
+            loveMessage = prompt("One last time.. and you add a lovely heart with a crown ❤️👑");
+            while (loveMessage !== "I love you my King ❤️👑") {
+                if (loveMessage === null) return;
+                loveMessage = prompt("Come on, one last time.. say \"I love you my King ❤️👑\"");
+            }
+            
+            window.location.href = "Esterida-love-letter.pdf";
+        }
+    </script>
+</body>
+</html>

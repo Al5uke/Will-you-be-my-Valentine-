@@ -56,14 +56,15 @@
 const messages = [
     "Are you sure?",
     "Really sure??",
-    "Are you positive?",
-    "Pookie please...",
+    "Really sure sure?",
+    "Really sure sure sure?",
+    "Baby please...",
     "Just think about it!",
     "If you say no, I will be really sad...",
-    "I will be very sad...",
-    "I will be very very very sad...",
+    "God and I will be really sad...",
+    "We will be very very very sad...",
     "Ok fine, I will stop asking...",
-    "Just kidding, say yes please! ❤️"
+    "Just kidding, say yes rigth now."
 ];
 
 let messageIndex = 0;
